@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat&display=swap');
+body{
+    background-image: url("../img/Desktop.png");
+    background-size: cover;
+    color: #E4E5EA;
+}
+.main__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto 50px;
+}
+
+.main__container-p{
+max-width: 275px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+}
+.main__advantages{
+    text-align: right;
+    align-items: flex-start;
+}
+.main__advantages-p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+}
+.main__container-widg{
+    display: flex;
+justify-content: flex-end;
+margin-top: 30px;
+}
+.main__container-widgets{
+    max-width: 134px;
+    margin-right: 46px;
+}
+.main__container-widgets:last-child{
+    margin-right: 0px;
+}
+.button{
+background: #4077F3;
+width: 262px;
+height: 61px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #E4E5EA;
+cursor: pointer;
+margin-top: 61px;
+}
+.main__container-more{
+max-width: 362px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+}
+.main__container-welbex{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.main__header{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: right;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+.main__text{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+.skype{
+    margin-top: 38px;
+}
+.main__free{
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+}
+.main__block{
+    margin-top: 48px;
+}
+.text{
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 500px){
+    body{
+        background: url("../img/bg\ \(1\).png") no-repeat;
+        height: 100%;
+    }
+    .main__container{
+        display: flex;
+        margin-left: 15px;
+        margin-bottom: 0px;
+    }
+    
+    .main__container-p{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .main__container-more{
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+margin-bottom: 0px;
+    }
+    .main__container-welbex{
+        font-weight: 900;
+font-size: 36px;
+line-height: 44px;
+margin-top: 0px;
+margin-bottom: 10px;
+    }
+    .main__block{
+        text-align: left;
+        margin-top: 20px;
+    }
+    .main__free{
+        text-transform: lowercase;
+    }
+    .button{
+        display: none;
+    }
+    .main__text{
+        display: none;
+    }
+    .main__header{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+margin-top: 0px;
+    }
+    .skype{
+        margin-top: 0px;
+    }
+}
