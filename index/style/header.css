@@ -54,7 +54,7 @@ line-height: 12px;
     header{
         background-color: black;
         height: 55px;
-        width: 320px;
+        width: 100%;
         margin-top: 0px;
     }
     .header__container{
@@ -69,13 +69,10 @@ line-height: 12px;
     .header__media{
         display: none;
     }
-    .header__menu{
-        display: flex;
-       flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
     .header__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;

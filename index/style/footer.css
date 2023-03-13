@@ -82,4 +82,10 @@ padding: 6px;
         margin-top: 0px;
         }
 
+        .footer__grid-container{
+            display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 300px;
+        grid-auto-columns: max-content;
+        }
 }
